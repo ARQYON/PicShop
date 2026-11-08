@@ -1,0 +1,102 @@
+# Ignore build files, secrets 
+build/
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.map
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.cmake
+!CMakeLists.txt
+!CMakePresets.json
+
+# Rust Builf Artifacts
+rust/target/
+**/*.rs.bk
+Cargo.lock
+
+# Python Artifacts 
+ai/__pycache__/
+ai/*.pyc
+ai/*.pyo
+ai/.venv/
+ai/venv/
+ai/env
+*.egg-info/
+dist/
+*.whl
+.pytest_cache/
+.mypy_cache/
+
+# Qt Artifacts
+*.pro.user
+*.qmlc
+*.jsc
+ui/GenratedFiles/
+ui/release/
+ui/debug/
+moc_*.cpp
+qrx_*.cpp
+ui_*.h
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Intaller Output
+installer/output/
+installer/*.exe
+installer/SVPicshop_Setup.exe
+
+# Secrets & Environment
+.env
+.env.local
+.env.production
+*.key
+*.pem
+secrets/
+config/private
+
+# Logs & Crash Reports
+*.log
+logs/
+crash_reports/
+*.dmp
+
+# AI Models Weights (too large for git)
+ai/models*.pt
+ai/models*.pth
+ai/models*.onx
+ai/models*.h5
+ai/models*.bin
+
+# Website (MERN) - node_modules
+
+website/node_modules/
+website/client/node_modules/
+website/.next/
+website/dist/
+website/.env
+
+# Tempo & OS Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+.vscode
